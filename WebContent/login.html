@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+
+.btn-link-1 {
+    display: inline-block;
+    height: 50px;
+    margin: 5px;
+    padding: 16px 20px 0 20px;
+    background: #4aaf51;
+    border: 1px solid #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 0px;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+
+   
+}
+
+.btn-link-1.btn-link-1-twitter {
+    background: #55acee
+}
+
+</style>
+</head>
+<body>
+	
+	<form method="POST" action="LoginApplicantServlet">
+		
+		userid: <input type="text" name = "userid" />
+		<br />
+		<br />
+		password: <input type="text" name = "password" />
+       <button class="btn btn-link-1 btn-link-1-twitter" type="submit" name="action" value="applicant">login as applicant</button>
+       <button class="btn btn-link-1 btn-link-1-twitter" type="submit" name="action" value="company">login as company</button>
+    </form>
+	
+</body>
+</html>
